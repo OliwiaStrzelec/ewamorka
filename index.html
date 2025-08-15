@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ewa Morka Business Card</title>
+  <style>
+    body {
+      background: #222;
+      color: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .photo {
+      max-width: 90vw;
+      max-height: 70vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 0;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+      margin-bottom: 32px;
+      border: none;
+      position: static;
+      z-index: 1;
+      display: block;
+    }
+    .instagram-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 16px;
+      text-decoration: none;
+      z-index: 2;
+    }
+    .instagram-text {
+      color: #fff;
+      font-size: 1.2em;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    }
+    .instagram-link:hover .instagram-text {
+      color: #e1306c;
+      transition: color 0.2s;
+    }
+  </style>
+</head>
+<body>
+  <img src="aFOTO_1534-kadr.jpg" alt="Ewa Morka Photo" class="photo">
+  <a class="instagram-link" href="https://instagram.com/ewamorka" target="_blank" rel="noopener">
+    <span class="instagram-text">@ewamorka</span>
+  </a>
+</body>
+</html>
